@@ -5,3 +5,4 @@
 *.ac.bak
 *.blend1
 
+/manual_rst/build/

@@ -4,8 +4,8 @@ Weapons and Armament
 
 .. _link_section_overview_weapons:
 
-Overview of Available Weapons in the FlighGear version
-======================================================
+Overview of Available Weapons in the FlightGear version
+=======================================================
 
 The abbreviation column refers to the abbreviations used in the SMS page (see :ref:`link_subsection_sms_page`).
 
@@ -119,7 +119,7 @@ ASMP-A                                          N
 
 *Key: 5 refers to the 2000-5, B to the 2000-5B, D to the 2000D/N, D* to only the 2000D and N to only the 2000N.*
 
-Apart from the available weapons per station, the simulation does currently not impose additional restrictions w.r.t. the combination of weapons. Pictures of real aircraft show that quite some variance is in action. However, it of course makes sense to e.g. have a pod installed if you need laser guidance - or that the weights on both sides of the fuselage are in balance. And the real Mirage can only carry one type of graound attack weapon at a time (e.g. not SAMP Mk-82 and SAMP MK-82SE at the same time).
+Apart from the available weapons per station, the simulation does currently not impose additional restrictions w.r.t. the combination of weapons. Pictures of real aircraft show that quite some variance is in action. However, it of course makes sense to e.g. have a pod installed if you need laser guidance - or that the weights on both sides of the fuselage are in balance. And the real Mirage can only carry one type of ground attack weapon at a time (e.g. not SAMP Mk-82 and SAMP MK-82SE at the same time).
 
 .. image:: images/fuel_and_payload_settings.png
    :scale: 75%
@@ -155,7 +155,7 @@ The stores management system (see :ref:`link_subsection_sms_page`) shows the ava
 Shooting
 ========
 
-Make sure that the master arm is on. The HUD displays the diverse reticles in ``Attack`` mode also if master arm is off. If the master arm is off, then the weapon mode on the left side of the HUD is flashing.
+Make sure that the master arm is on. The HUD displays the diverse reticle in ``Attack`` mode also if master arm is off. If the master arm is off, then the weapon mode on the left side of the HUD is flashing.
 
 Use the trigger (``Key: e``) for releasing a weapon no matter the type.
 
@@ -225,7 +225,7 @@ Alternatively, using ``Key: ctrl-l`` you can fast spot and designate the clicked
 
 A FLIR view (``Key: F6``) can be activated and the button ``Focus FLIR on Sniped Target`` will then point the laser to the sniped coordinates. Thereby the coordinate can be improved by clicking exactly on the target through the FLIR and then updating the target.
 
-NB: The laser-guided bombs and the AS-30L have a relatively narrow seeker field of view of ca. 30 degrees. Therfore, the aircraft nose must point to the designated target at launch time, such that the seeker can pick it up.
+NB: The laser-guided bombs and the AS-30L have a relatively narrow seeker field of view of ca. 30 degrees. Therefore, the aircraft nose must point to the designated target at launch time, such that the seeker can pick it up.
 
 
 MK-82 / MK-82SE and GBU-12/GBU-24
@@ -288,23 +288,23 @@ For air-to-air the wingspan of the expected target can be set between 7 and 40 m
 AS-37 Armat (Anti-Radiation)
 ----------------------------
 
-There is very little information available for the AS-37 Armat ("Anti Radiation MArTel") missile - especially how the aiming in the cockpit is done. And there is a lack of officially confirmed information abouts its use on Mirage 2000 variants as well as which countries might have been using it. Most probably requirements for not having to fit the launching aircraft with a lot of specialised equipment for the SEAD (`Suppression of Enemy Air Defenses⇗ <https://en.wikipedia.org/wiki/Suppression_of_enemy_air_defenses>`_) can be fulfilled by the AS-37 (e.g. like stated in "RAAF's requirement under AIR 5398" in ref[A07]). Ref[A07] also states "With its high launch weight, heavyweight warhead and long range, the Armat is primarily an offensive strategic ARM designed to destroy Early Warning and Ground Control Intercept radars." Some sources indicate that the Armat had few (3) different seeker head options that could track only specific radar types. Because this is decided on ground there is limited possibilitiy to chase opportunistic targets and cannot be used for (self) defence.
+There is very little information available for the AS-37 Armat ("Anti Radiation MArTel") missile - especially how the aiming in the cockpit is done. And there is a lack of officially confirmed information abouts its use on Mirage 2000 variants as well as which countries might have been using it. Most probably requirements for not having to fit the launching aircraft with a lot of specialised equipment for the SEAD (`Suppression of Enemy Air Defenses⇗ <https://en.wikipedia.org/wiki/Suppression_of_enemy_air_defenses>`_) can be fulfilled by the AS-37 (e.g. like stated in "RAAF's requirement under AIR 5398" in ref[A07]). Ref[A07] also states "With its high launch weight, heavyweight warhead and long range, the Armat is primarily an offensive strategic ARM designed to destroy Early Warning and Ground Control Intercept radars." Some sources indicate that the Armat had few (3) different seeker head options that could track only specific radar types. Because this is decided on ground there is limited possibility to chase opportunistic targets and cannot be used for (self) defence.
 
 NB: if you have any information/hints available to make the implementation more realistic, then let the developers know.
 
 Therefore, the implementation is purely fictional and takes inspiration from the DCS AV-8B Harrier AGM 122 Sidearm setup:
 
 * Most probably the missile was only available in the -C version, maybe in the -D/N versions. This is why a rather primitive display system only using the HUD is used - only the -D and -5 versions have displays, which could show a page like in the F-16 or F-18 MFDs.
-* The type of radar target has to be set before takeoff (to simulate that early versions of the AS-37 had 3 different seekers to be installed - even though the AS-37A most probably did not have diffenet seekers): ``GROUND`` (GCI, radar towers - radar code ``S`` in OPRF), ``SHIP`` (frigates etc. - ``SH``), ``SAM`` for larger static ground based SAMS (SA-3 ``3``, S-200 ``5``, S-300 ``20``, MIM104D ``P``), or ``AAW``` for smaller SAMS and self-propelled anti-aircraft warefare systems (Shilka ``AA``, SA-6 ``6`` and Buk-M2 ``17``) - this is really just a "random" choice for simulation.
+* The type of radar target has to be set before takeoff (to simulate that early versions of the AS-37 had 3 different seekers to be installed - even though the AS-37A most probably did not have different seekers): ``GROUND`` (GCI, radar towers - radar code ``S`` in OPRF), ``SHIP`` (frigates etc. - ``SH``), ``SAM`` for larger static ground based SAMS (SA-3 ``3``, S-200 ``5``, S-300 ``20``, MIM104D ``P``), or ``AAW``` for smaller SAMS and self-propelled anti-aircraft warfare systems (Shilka ``AA``, SA-6 ``6`` and Buk-M2 ``17``) - this is really just a "random" choice for simulation.
 * Power for the missile seeker must be explicitly activated.
 
 For aiming you need to combine the RWR display (see :ref:`link_subsection_rwr_page`) with information in the HUD:
 
-* The HUD only displays a narrow field of view and filters on surface or naval assets which have an air radar. Unknown target types will not be displayed. A mximum of 8 threats are displayed (more severe threats are prioritised).
+* The HUD only displays a narrow field of view and filters on surface or naval assets which have an air radar. Unknown target types will not be displayed. A maximum of 8 threats are displayed (more severe threats are prioritised).
 * The HUD is based on the passive radar homing detection capabilities of the missile, which has been chosen to be 50 nm (the max range of the missile is 54 nm) - which is much lower than the RWR capabilities.
 * Therefore, you can use the RWR to spot potential targets and then steer the airplane into that direction until the target is displayed on the HUD (unless it is airborne or out of range). Remember that the distance from the centre in the RWR is not an indication of distance!
 
-In the HUD all detected radiation emitters within the HUD field for view are displayed without any range information using the same type information as in the RWR. E.g. on the following screenshot you can see three radiation targets in the HUD - the same as shown in the RWR (where they overlap). The recticle is always in the centre and gets a double circle, when there is a lock. As with IR-missiles you will hear low and high volume sounds to indicate whether a lock has been acquired.
+In the HUD all detected radiation emitters within the HUD field for view are displayed without any range information using the same type information as in the RWR. E.g. on the following screenshot you can see three radiation targets in the HUD - the same as shown in the RWR (where they overlap). The reticle is always in the centre and gets a double circle, when there is a lock. As with IR-missiles you will hear low and high volume sounds to indicate whether a lock has been acquired.
 
 .. image:: images/antiradar_caged.png
    :scale: 30%
@@ -320,7 +320,7 @@ The missile needs to be fired:
 
 Tips:
 
-* Once a lock is acquired the recticle does not have to be kept directly over the target. However, if the recticle is moved too far away before the missile is shot, then the lock will get broken.
+* Once a lock is acquired the reticle does not have to be kept directly over the target. However, if the reticle is moved too far away before the missile is shot, then the lock will get broken.
 * The missile flies directly towards the target. If you launch too shallow, then it might hit the ground.
 * After the first missile has been fired, the second missile's power must be activated in the PPA.
 

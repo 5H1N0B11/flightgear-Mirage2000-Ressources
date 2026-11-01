@@ -82,7 +82,7 @@ Landing with ILS
 In bad weather or at night the `Instrument Landing System (ILS)⇗ <https://en.wikipedia.org/wiki/Instrument_landing_system>`_ can help to find the runway. The HUD of the mirage displays cues from the ILS as shown in the next image:
 
 * The synthetic runway.
-* The stipled line to the left shows the runway axis direction. If it is not on the synthetic runway symbol, then you have to fly towards the side of the stipled line to align with the runway.
+* The stippled line to the left shows the runway axis direction. If it is not on the synthetic runway symbol, then you have to fly towards the side of the stippled line to align with the runway.
 * A guidance window (square). To land correctly the airplane must be steered such that the flight path vector overlaps the guidance window - while also being correct in relation to the approach brackets (see chapter above).
 
 
@@ -118,7 +118,7 @@ The main difference between the flight modes are:
 * The view position and zoom.
 * What is displayed on the HUD (:ref:`link_section_hud`).
 
-If there is weight on the main wheels, then fligth mode ``Ground`` is automatically selected. Otherwise the possibilities to change between the different modes is as presented in the table below (left columns: from mode; top headers: to mode):
+If there is weight on the main wheels, then flight mode ``Ground`` is automatically selected. Otherwise the possibilities to change between the different modes is as presented in the table below (left columns: from mode; top headers: to mode):
 
 =============== ===================== ============ ==========
 From / to       Navigation            Approach     Attack
@@ -151,7 +151,7 @@ It is highly recommended to use a `head-tracking device⇗ <https://en.wikipedia
 
 * changing the in-cockpit views will automatically toggle the headtracker
 * use ``Key: ctrl+h`` to manually toggle the view (instead of using the menu)
-* use ``Key: ctrl+t`` to manually toggle the translation (instead of using the menu). If headtracking is on and translation is on, then you can better see the indicators to the left and right of the HUD, but the seat will be default. To use the seat up/down changes, you have to disable transaltion.
+* use ``Key: ctrl+t`` to manually toggle the translation (instead of using the menu). If headtracking is on and translation is on, then you can better see the indicators to the left and right of the HUD, but the seat will be default. To use the seat up/down changes, you have to disable translation.
 
 
 Other Stuff

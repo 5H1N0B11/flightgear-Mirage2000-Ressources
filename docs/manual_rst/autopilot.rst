@@ -17,14 +17,14 @@ Please be aware:
 
 * There is no autopilot mode for speed. In all modes the pilot has to actively use the throttle to maintain the desired speed.
 * There is no autopilot mode to follow waypoints.
-* The *autpilot* and *terrain following* are not the same thing. And currently terrain following is not implemented.
-* The default FlightGear autopilot and autompilot dialogue are not available.
+* The *autopilot* and *terrain following* are not the same thing. And currently terrain following is not implemented.
+* The default FlightGear autopilot and autopilot dialogue are not available.
 
 To change modes do the following:
 
 * To engage or disengage the autopilot press either the ``PA`` button or use ``Key: BACKSPACE``. If the autopilot is in one of the three advanced modes, then you have to toggle twice to disengage (once to get from an advanced mode to the basic mode and then to disengage altogether).
 * To engage or disengage standby mode use ``Key: ctrl + a`` (there is no button on the panel). Does only work if the autopilot is in a basic or advanced mode.
-* To engage one of the three advanced modes (``ALT``, ``ALT AFF``, ``LG``) press the respecitive buttons on the panel (there is no key binding). To disengage one of the three advanced modes either choose a different advanced mode or press the ``PA`` button to get into basic mode.
+* To engage one of the three advanced modes (``ALT``, ``ALT AFF``, ``LG``) press the respective buttons on the panel (there is no key binding). To disengage one of the three advanced modes either choose a different advanced mode or press the ``PA`` button to get into basic mode.
 
 .. image:: images/autopilot_states.png
    :alt: autopilot states

@@ -20,14 +20,14 @@ This manual has been written in order to help you get to know the FlightGear Mir
 
 If you find rooms for improvement in this manual, then please contact us (see :ref:`link_section_contact`).
 
-The old/original manual ``Mirage 2000 manual.pdf`` by Renaud "Wolf" Roquefort can be found in the "Docs" folder or accessed by `this link <https://github.com/5H1N0B11/flightgear-mirage2000/blob/master/Mirage-2000/Docs/mirage2000-old-manual.pdf>`_. It is one of the sources of this manual and will eventually be replaced. However, it still contains information, which has not yet been migrated (e.g. engine and fuel systems, presentation of cockpit instruments, air-2-air interception procedures and combat, navigation, autopilot). When there is overlapping information, then most probably this manual is better aligned with the current version of the model in FlightGear.
+The old/original manual ``Mirage 2000 manual.pdf`` by Renaud "Wolf" Roquefort can be found in the "Docs" folder or accessed by `this link <https://github.com/5H1N0B11/flightgear-mirage2000/blob/master/Mirage-2000/Docs/mirage2000-old-manual.pdf>`_. It is one of the sources of this manual and will eventually be replaced. However, it still contains information, which has not yet been migrated (e.g. engine and fuel systems, presentation of cockpit instruments, air-2-air interception procedures and combat, navigation). When there is overlapping information, then most probably this manual is better aligned with the current version of the model in FlightGear.
 
 
 Realism
 =======
 
-Disclaimer
-----------
+Sources of Information
+----------------------
 
 This model in all variants is an interpretation of the real Mirage 2000 based on publicly available information (see :ref:`link_chapter_references`) without any form of involvement from the original equipment manufacturers or any other entity with knowledge of unpublished/classified material of the original aircraft or its offensive/defensive systems.
 

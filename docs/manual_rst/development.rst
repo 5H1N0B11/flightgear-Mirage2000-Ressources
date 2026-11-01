@@ -16,9 +16,9 @@ Create a local Pythong virtual environment on Ubuntu:
 ::
 
     user$ apt install python3 python3-venv
-    user$ python3 -m venv /home/vanosten/bin/virtualenvs/m2000
-    user$ source /home/vanosten/bin/virtualenvs/m2000/bin/activate
-    (m2000) user$ cd /home/vanosten/flightgear-mirage2000/Docs/manual_rst
+    user$ python3 -m venv /home/vanosten/bin/venv/m2000
+    user$ source /home/vanosten/bin/venv/m2000/bin/activate
+    (m2000) user$ cd /home/vanosten/bin/flightgear/customaircraft/flightgear-Mirage2000-Ressources/docs/manual_rst
 
     (o2c312) user$ pip3 install -r requirements.txt
 

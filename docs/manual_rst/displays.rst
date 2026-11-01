@@ -26,7 +26,7 @@ NB: Some description of information displayed in the HUD is included in other se
 Acceleration Vectors
 --------------------
 
-The acceleration vectors (aka. `chevrons⇗ <https://en.wikipedia.org/wiki/Chevron_(insignia)>`_) indicate the current acceleration. If they are diaplyed above the flight path vector (the little airplane), then the aicraft is accelerating (gaining speed). A specialty of the M2000-5 version is that the chevrons are double when the afterburner is on, otherwise single.
+The acceleration vectors (aka. `chevrons⇗ <https://en.wikipedia.org/wiki/Chevron_(insignia)>`_) indicate the current acceleration. If they are displayed above the flight path vector (the little airplane), then the aicraft is accelerating (gaining speed). A specialty of the M2000-5 version is that the chevrons are double when the afterburner is on, otherwise single.
 
 .. image:: images/hud_chevrons_ab.png
    :align: center
@@ -210,7 +210,7 @@ The navigation modes can be selected on the left side of the screen (``FMS`` is 
 * ``TAC`` (TACAN)
 * ``FMS`` (Flight Management System - waypoints)
 
-You can change between ``NAV1`` and ``NAV2`` with the button at the right of the top botton row - unless ``NAV*`` is displayed because you are in another navigation maode than ``VOR``. In that case you can change to ``NAV1``.
+You can change between ``NAV1`` and ``NAV2`` with the button at the right of the top botton row - unless ``NAV*`` is displayed because you are in another navigation mode than ``VOR``. In that case you can change to ``NAV1``.
 
 
 Compass
@@ -245,10 +245,10 @@ On the Left Hand Side
 * The navigation mode: If VOR is selected and it is an ILS station, then ``ILS`` is displayed as soon as the glidescope information is in range.
 * ``...N``: Distance to destination in nautical miles. If there are only dots and no number, then the station is not yet in range for distance calculation. The distance for ILS is displayed for the glidescope when available, else as VOR.
 * ``...M``: Time to destination in minutes and seconds given current speed (or estimated with 400 kt if the speed is below 100 kt). The calculation depends on the availability of the distance.
-* The name of the VOR/ILS station if available (e.g. ``EHE``). Typically, ILS stastions start with an "I" in the name.
+* The name of the VOR/ILS station if available (e.g. ``EHE``). Typically, ILS stations start with an "I" in the name.
 * The TACAN channel (e.g. ``029X``)
 
-The data points beloning to the currently selected mode (e.g. VOR vs. TACAN) are shown in cyan colour, otherwise white.
+The data points belonging to the currently selected mode (e.g. VOR vs. TACAN) are shown in cyan colour, otherwise white.
 
 On the Right Hand Side
 ''''''''''''''''''''''

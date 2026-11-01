@@ -495,6 +495,20 @@ Y17: Fighter Jets: Engineered to Push Pilots to the Limit | Documentary
 
 URL: https://www.youtube.com/watch?v=QeEhiRkg6BA
 
+Content:
+
 * In general: the evolution of the Ouragan, M2000 and Rafale
 * Around ca. 19:22 and 20:34: footage of -5 cockpit instruments from another simulator
 * Around ca. 24:00: footage of TGP display
+
+Y18: Mon simulateur de Mirage 2000
+----------------------------------
+
+URL: https://www.youtube.com/watch?v=qak1jI_aRAM
+
+Content:
+
+* Video of a home-made Mirage 2000-5F cockpit with a majority of original parts.
+* Close up video sequences of all panels with angles making it possible to also see depth
+
+PS: In the show notes there is a link to the author's Tiktok channel, where there are more relevant shorts.
